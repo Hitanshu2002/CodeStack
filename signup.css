@@ -1,0 +1,80 @@
+.form-2{
+    text-align: center;
+    height: 36em;
+    border: 2px solid black;
+    width: 50%;
+    background-color: white;
+    color: black;
+    translate: -50% 12%;
+    border-radius: 1em;
+}
+
+.sign-up{
+    position: relative;
+    left: 50%;
+    bottom: 100%;
+    /* border: 2px solid blue; */
+    display: inline-block;
+    height: 36em;
+    width: 50%;
+    /* background-color: greenyellow; */
+}
+
+.s-input{
+    height: 2.2em;
+    width: 24em;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+
+#s-username{
+    position: relative;
+    left: -11.53em;
+    margin-top: 10px;
+}
+
+#s-e-mail{
+    position: relative;
+    left: -6.2em;
+}
+
+#s-password{
+    position: relative;
+    left: -7em;
+}
+
+#s-number{
+    position: relative;
+    left: -7.1em;
+}
+
+#sign-up-button{
+    /* margin-top: 9px; */
+    height: 2.6em;
+    width: 24.5em;
+    margin-bottom: -7px;
+    background-color: #280F74;
+    color: white;
+    border: 2px solid #280F74;
+    
+}
+
+.sign-up #logo{
+    height: 5em;
+    width: 8em;
+    position: relative;
+    left: 4.5em;
+    margin: 2em;
+}
+
+.have-an-account{
+    color: #06D0D4;
+}
+
+ .have-an-account a{
+    color:#280F74;
+    text-decoration: none;
+}
+.have-an-account a:hover{
+    text-decoration: underline;
+}

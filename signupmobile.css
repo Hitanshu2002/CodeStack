@@ -1,0 +1,29 @@
+@media(width<400px){
+    .form-2{
+        height: 40em;
+        width: 23em;
+        translate: -50% 8%;
+    }
+   
+    #s-username{
+        left: -4.7em;
+        top: 1em;
+        display: block; 
+    }
+    
+    #s-e-mail{
+      margin-left: 1.5em;
+    }
+    
+    #s-password{
+        left: -7em;
+        margin-left: 1.2em;
+    }
+    
+    #s-number{
+        margin-left: 1.1em;
+    }
+    img{
+        translate: -60% -20%;
+    }
+}
