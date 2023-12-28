@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 5em;
+    display: flex;
+   background: linear-gradient(to right,#FFFFFF ,#D1D5F0);
+}
+.logo{
+    background-image: url(Screenshot\ 2023-12-23\ 154443.png);
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 2em;
+}
+.blank-space{
+    width: 36%;
+}
+.explore{
+    display: flex;
+   width: 44%;
+   
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button-1{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 530;
+    color: #270095;
+    height: 2em;
+    width: 5em;
+    text-align: center;
+    line-height: 1.75em;
+}
+.hero-section{
+    height: 38em;
+    /* border: 2px solid black; */
+    background: linear-gradient(to right,#D1D5F0,#FFFFFF);
+}
+.image-hero{
+    background-image: url(coding_boy.svg);
+    width: 40%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    position: relative;
+    top: -11em;
+    right: 4em;
+    /* border: 2px solid black; */
+    border-radius: 5em;
+    
+    
+}
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    height: 23em;
+    position: relative;
+    top: 12em;
+    left: 9em;
+   
+}
+.content-btn{
+    font-size: 1.5em;
+  background-color: #3B82F5;
+    cursor: pointer;
+    position: absolute;
+    top: 87%;
+    /* left: 29%; */
+    height: 2em;
+    width: 7em;
+    border: none;
+    color: #2E3446;
+    border-radius: 2em;
+}
+@keyframes example{
+    from{
+        visibility: hidden;
+    }
+    to{
+        visibility: visible;
+    }
+}
+.content-text{
+    display: inline-block;
+   
+
+   animation: example 20s;
+}
+.button-1:hover{
+  text-decoration: underline;
+ 
+
+} 
+.button-2{
+  background-color: #3B82F5;
+  color: white;
+  font-weight: bold;
+}
+/* .button-3{
+  background-color: #290293;
+  color: white;
+  font-weight: bold;
+} */
+

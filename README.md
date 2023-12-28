@@ -1,2 +1,2 @@
-# CodeStack
-this is a website for maintaing a coding event
+# Day-1
+upadte in basic html and css
