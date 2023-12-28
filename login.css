@@ -1,0 +1,166 @@
+.box{
+    height: 36em;
+    width: 66%;
+    background-color: yellow;
+    /* border: 2px solid yellow; */
+    position: relative;
+    top:5em;
+    left: 16em;
+}
+
+#logo{
+    height: 5em;
+    width: 8em;
+    position: relative;
+    left: 4em;
+    margin: 2em;
+}
+.form-1{
+    text-align: center;
+    height: 100%;
+    border: 2px solid black;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.log-in{
+    display: inline-block;
+    height: 36em;
+    width: 50%;
+    background-color: greenyellow;
+}
+
+#username{
+    position: relative;
+    left: -12.25em;
+    margin-top: 10px;
+}
+
+#password{
+    position: relative;
+    left: -7em;
+}
+
+#input{
+    height: 2.2em;
+    width: 24em;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+
+#log-in-button{
+    margin-top: 9px;
+    height: 2.6em;
+    width: 24.5em;
+    margin-bottom: 10px;
+    background-color: #280F74;
+    color: white;
+    border: 2px solid #280F74;
+    
+}
+
+#swap{
+    position: relative;
+    left: 4.4em;
+}
+
+.forget-password{
+    color: #280F74;
+    position: relative;
+    right: 3.7em;
+}
+
+.google-icon{
+    height: 2em;
+    width: 2em;
+    opacity: 45%;
+}
+
+.log-in-with{
+    margin-top: 2em;
+    color: #06D0D4;
+}
+
+.google-icon:hover{
+    opacity: 100%;
+    transition: 0.2s;
+}
+
+
+
+
+.form-2{
+    text-align: center;
+    height: 36em;
+    border: 2px solid black;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.sign-up{
+    position: relative;
+    left: 50%;
+    bottom: 100%;
+    /* border: 2px solid blue; */
+    display: inline-block;
+    height: 36em;
+    width: 50%;
+    background-color: greenyellow;
+}
+
+#s-input{
+    height: 2.2em;
+    width: 24em;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+
+#s-username{
+    position: relative;
+    left: -11.53em;
+    margin-top: 10px;
+}
+
+#s-e-mail{
+    position: relative;
+    left: -6.2em;
+}
+
+#s-password{
+    position: relative;
+    left: -7em;
+}
+
+#s-number{
+    position: relative;
+    left: -7.1em;
+}
+
+#sign-up-button{
+    /* margin-top: 9px; */
+    height: 2.6em;
+    width: 24.5em;
+    margin-bottom: -7px;
+    background-color: #280F74;
+    color: white;
+    border: 2px solid #280F74;
+    
+}
+
+.sign-up #logo{
+    height: 5em;
+    width: 8em;
+    position: relative;
+    left: 4.5em;
+    margin: 2em;
+}
+
+.have-an-account{
+    color: #06D0D4;
+}
+
+a .have-an-account{
+    color:#280F74;
+}
