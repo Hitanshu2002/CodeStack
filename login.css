@@ -1,11 +1,5 @@
-.box{
-    height: 36em;
-    width: 66%;
-    background-color: yellow;
-    /* border: 2px solid yellow; */
-    position: relative;
-    top:5em;
-    left: 16em;
+body{
+    margin: 0;
 }
 
 #logo{
@@ -16,10 +10,12 @@
     margin: 2em;
 }
 .form-1{
+    translate: 155% 24%;
     text-align: center;
     height: 100%;
     border: 2px solid black;
-    width: 100%;
+    border-radius: 1em;
+    width: 50%;
     background-color: white;
     color: black;
 }
@@ -28,7 +24,6 @@
     display: inline-block;
     height: 36em;
     width: 50%;
-    background-color: greenyellow;
 }
 
 #username{
@@ -42,7 +37,7 @@
     left: -7em;
 }
 
-#input{
+.input{
     height: 2.2em;
     width: 24em;
     margin-bottom: 30px;
@@ -57,7 +52,6 @@
     background-color: #280F74;
     color: white;
     border: 2px solid #280F74;
-    
 }
 
 #swap{
@@ -72,14 +66,12 @@
 }
 
 .google-icon{
+    position: relative;
+    bottom: 0.1em;
+    right: 0.5em;
     height: 2em;
     width: 2em;
     opacity: 45%;
-}
-
-.log-in-with{
-    margin-top: 2em;
-    color: #06D0D4;
 }
 
 .google-icon:hover{
@@ -87,80 +79,60 @@
     transition: 0.2s;
 }
 
-
-
-
-.form-2{
-    text-align: center;
-    height: 36em;
-    border: 2px solid black;
-    width: 100%;
-    background-color: white;
-    color: black;
-}
-
-.sign-up{
-    position: relative;
-    left: 50%;
-    bottom: 100%;
-    /* border: 2px solid blue; */
-    display: inline-block;
-    height: 36em;
-    width: 50%;
-    background-color: greenyellow;
-}
-
-#s-input{
+.google-button{
     height: 2.2em;
     width: 24em;
-    margin-bottom: 30px;
-    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-top: -3em;
 }
 
-#s-username{
+.apple-icon{
     position: relative;
-    left: -11.53em;
+    bottom: 0.12em;
+    right: 0.5em;
+    border-radius: 0.5em;
+    height: 2.1em;
+    width: 2.1em;
+    opacity: 45%;
+}
+
+.apple-icon:hover{
+    opacity: 100%;
+    transition: 0.2s;
+}
+
+.apple-button{
+    height: 2.2em;
+    width: 24em;
+    margin-bottom: 20px;
     margin-top: 10px;
-}
-
-#s-e-mail{
-    position: relative;
-    left: -6.2em;
-}
-
-#s-password{
-    position: relative;
-    left: -7em;
-}
-
-#s-number{
-    position: relative;
-    left: -7.1em;
-}
-
-#sign-up-button{
-    /* margin-top: 9px; */
-    height: 2.6em;
-    width: 24.5em;
-    margin-bottom: -7px;
-    background-color: #280F74;
+    background-color: black;
+    border: 1px solid black;
     color: white;
-    border: 2px solid #280F74;
-    
 }
 
-.sign-up #logo{
-    height: 5em;
-    width: 8em;
+.line{
+    width: 20.2em;
+    border: 1px solid black;
     position: relative;
-    left: 4.5em;
-    margin: 2em;
+    left: 4.25em;
+    margin-top: 22px;
 }
 
-.have-an-account{
-    color: #06D0D4;
+.log-in-with{
+    display: inline-block;
+    margin-top: 2em;
+    color: black;
+    background-color: white;
+    width: 10%;
+    position: relative;
+    bottom: 2.66em;
 }
 
-a .have-an-account{
-    color:#280F74;
+.para{
+    display: inline-block;
+    position: relative;
+    bottom: 0.8em;
+    left: 0.5em;
+
 }
